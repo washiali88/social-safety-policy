@@ -1,13 +1,210 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Social App Safety Standards</title>
+    <title>Social App - Safety Standards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2d3748;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #667eea;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 25px;
+            background: #f7fafc;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+        
+        h2 {
+            color: #2d3748;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        h2::before {
+            content: "✓";
+            background: #48bb78;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 16px;
+        }
+        
+        p {
+            color: #4a5568;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .contact-box h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        
+        .email {
+            background: white;
+            color: #667eea;
+            padding: 15px 25px;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 600;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .email:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .report-btn {
+            background: #e53e3e;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s;
+            display: inline-block;
+            text-decoration: none;
+        }
+        
+        .report-btn:hover {
+            background: #c53030;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #718096;
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Social App Child Safety Standards</h1>
-    <p>Contact: wesawilly7@gmail.com</p>
-    <p>Our app prohibits child sexual abuse material (CSAM) and exploitation.</p>
-    <p>We implement: content moderation, user reporting, and compliance with all laws.</p>
-    <p>Report concerns to: wesawilly7@gmail.com.com</p>
+    <div class="container">
+        <div class="header">
+            <h1>Social App Safety Standards</h1>
+            <div class="subtitle">Protecting Our Community with Highest Safety Standards</div>
+        </div>
+        
+        <div class="section">
+            <h2>Zero Tolerance Policy</h2>
+            <p>Social App strictly prohibits any child sexual abuse material (CSAM), exploitation, or harmful content. We maintain a zero-tolerance approach to ensure a safe environment for all users.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Safety Measures Implemented</h2>
+            <p>• Automated content moderation systems</p>
+            <p>• Manual review processes for reported content</p>
+            <p>• User reporting system with priority response</p>
+            <p>• Age verification and restriction protocols</p>
+            <p>• Regular staff training on safety protocols</p>
+        </div>
+        
+        <div class="section">
+            <h2>Legal Compliance</h2>
+            <p>Our app complies with all regional and international laws regarding child protection, including reporting obligations to appropriate authorities. We cooperate fully with law enforcement agencies.</p>
+        </div>
+        
+        <div class="contact-box">
+            <h3>Contact Information</h3>
+            <p>Designated Safety Contact Point</p>
+            <a href="mailto:wesawilly7@gmail.com" class="email">wesawilly7@gmail.com</a>
+            <p style="margin-top: 20px; color: rgba(255,255,255,0.9);">Available to discuss safety practices and compliance measures</p>
+            
+            <a href="mailto:wesawilly7@gmail.com?subject=Child Safety Concern Report" class="report-btn">
+                Report Safety Concern
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Last Updated: December 2024 | Social App Safety Team</p>
+            <p>This page is publicly accessible as required by Google Play policies</p>
+        </div>
+    </div>
 </body>
 </html>
